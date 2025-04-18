@@ -45,12 +45,12 @@ This project is a cloud-native microservices-based application for Best Buy's on
 
 | Service         | Repository Link |
 |-----------------|------------------|
-| Store-Front     | https://github.com/Ethan05302/bestbuy-store-front |
-| Store-Admin     | https://github.com/Ethan05302/bestbuy-store-admin |
-| Product-Service | https://github.com/Ethan05302/bestbuy-product-service |
-| Order-Service   | https://github.com/Ethan05302/bestbuy-order-service |
-| Makeline-Service| https://github.com/Ethan05302/bestbuy-makeline-service |
-| AI-Service      | https://github.com/Ethan05302/bestbuy-ai-service |
+| Store-Front     |https://github.com/Ethan05302/89157|
+| Store-Admin     | https://github.com/Ethan05302/89156|
+| Product-Service | https://github.com/Ethan05302/89155|
+| Order-Service   | https://github.com/Ethan05302/89154 |
+| Makeline-Service| https://github.com/Ethan05302/89152 |
+| AI-Service      | https://github.com/Ethan05302/8915 |
 
 ## Docker Images
 
@@ -63,10 +63,8 @@ This project is a cloud-native microservices-based application for Best Buy's on
 | Makeline-Service| https://hub.docker.com/r/ethan200530/makeline-service |
 | AI-Service      | https://hub.docker.com/r/ethan200530/ai-service |
 
-## Demo Video
-
-[Watch the 5-minute demo on YouTube](https://youtube.com/your-demo-video-link)
-
 ## Known Issues / Limitations
 
-- None at this time. The application works end-to-end from order placement to queue processing.
+My ai-service pod is running fine and there are no errors in the logs. The text generation works, but the image generation isn't responding — it doesn't return any image.
+
+I checked the code and the setup, and it looks okay, so I think the issue might be with the OpenAI API or network access. I’ll keep looking into it.
