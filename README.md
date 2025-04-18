@@ -5,8 +5,7 @@ Video Demo: https://youtu.be/R2aKFK1w3p8
 
 This project is a cloud-native microservices-based application for Best Buy's online store. It follows the architecture of the Algonquin Pet Store (On Steroids), with the key difference that **Azure Service Bus** is used as a managed order queue instead of RabbitMQ.
 
-<img width="1920" alt="bestbuy-architecture(1)" src="https://github.com/user-attachments/assets/345da8f3-535d-49d2-89dd-fc81a6cedb2d" />
-
+![Digram](https://github.com/user-attachments/assets/9068749d-8d00-4c53-9595-612c67f79bd5)
 
 
 ## Microservices Overview
@@ -64,7 +63,7 @@ This project is a cloud-native microservices-based application for Best Buy's on
 | Makeline-Service| https://hub.docker.com/r/ethan200530/makeline-service |
 | AI-Service      | https://hub.docker.com/r/ethan200530/ai-service |
 
-## Known Issues / Limitations
+## Known Issues 
 
 My ai-service pod is running fine and there are no errors in the logs. The text generation works, but the image generation isn't responding — it doesn't return any image.
 
